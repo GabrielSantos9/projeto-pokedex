@@ -5,17 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/pokedex.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta name="description" content="Site sobre pokedex.">
     <title>Pokédex</title>
+
+    <link rel="stylesheet" href="css/pokedex.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
     <main>
         <div class="pokedex">
             <div class="cartoes-pokemon">
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon aberto tipo-eletrico">
                     <div class="cartao-topo">
                         <div class="detalhes">
                             <h2 class="nome">Pikachu</h2>
@@ -40,13 +45,14 @@
                             </ul>
                         </div>
 
-                        <div class="habilidades"></div>
+                        <div class="habilidades">
                         <h3>habilidades</h3>
 
                         <ul>
-                            <li>Choque do Trovão</li>
+                            <li>Choque do trovão</li>
                             <li>Cabeçada</li>
                         </ul>
+                     </div>
                     </div>
                 </div>
 
@@ -228,7 +234,7 @@
 
             <nav class="listagem">
                 <ul>
-                    <li class="pokemon">
+                    <li class="pokemon ativo">
                         <img src="img/cabeca-pikachu.png" alt="cabeça-pikachu">
                         <span>Pikachu</span>
                     </li>
