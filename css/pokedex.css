@@ -26,12 +26,35 @@ main {
     background-color: #DADFE8;
 }
 
+footer {
+    padding: 8px;
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+footer a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
 .pokedex {
     display: flex;
     gap: 30px;
     padding: 30px 0;
 }
 /* GLOBAL */
+
+/* SCROLL BAR */
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: salmon;
+    }
+/* SCROLL BAR */
 
 /* CARTAO */
 .cartao-pokemon {
